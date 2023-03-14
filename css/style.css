@@ -19,7 +19,7 @@ body{
 
 .container::before {    
       content: "";
-      background-image: url('/Images/thomas-bonometti-dtfyRuKG7UY-unsplash.jpeg');
+      background-image: url('../Images/wolves.jpeg');
       background-size: cover;
       position: absolute;
       top: 0px;
