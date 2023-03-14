@@ -1,3 +1,8 @@
+body{
+    background-color: black;
+}
+
+
 /* Bio Section */
 section{
     margin-top: 75px;
@@ -5,19 +10,20 @@ section{
 }
 
 /* Bio Image */
-/* #bio-pic-container{
-    box-sizing: border-box;
-    border: 1px solid snow;
-    border-radius: 30px;
-} */
+#bio-pic-container{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
 
 img{
-    display: inline-block;
     box-sizing: border-box;
-    border: 4px solid seagreen;
-    border-radius: 40px;
+    border: 4px ridge orange;
+    border-radius: 100px;
     margin: 10px 5px;
     padding: 2px 2px;
+    width: 115px;
+    height: 125px;
 }
 
 
@@ -34,15 +40,43 @@ article{
 }
 
 h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
+    color: darkgoldenrod;
 }
-
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+li{
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    margin: 1px;
+}
+#bio-desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
 p{
-    color:rgb(11, 10, 10);
-    background-color: gainsboro;
+    color: black;
+    background-color: orange;
     padding: 50px;
-    border-radius: 35px;
+    box-sizing: border-box;
+    border: 1px solid silver;
+    border-style: groove;
+    border-radius: 100px;
     margin-left: 40px;
     font-size: larger;
+    width: 50vw;
+    height: 50vh;
+    
 }

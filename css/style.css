@@ -4,14 +4,6 @@ body{
     margin: 2px 2px;
     padding: 8px 10px ;
     background-color: black;
-    /* box-sizing: border-box;
-    border: 1px solid rgb(12, 12, 12);
-    border-radius: 35px; */
-    /* background: url('/Images/thomas-bonometti-dtfyRuKG7UY-unsplash.jpeg'); */
-    /* background-image: url(/bio-page/Images/thomas-bonometti-dtfyRuKG7UY-unsplash.jpeg);
-    
-    background-size: cover; */
-    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     height: 100vh;
     width: auto;
 }
@@ -27,7 +19,7 @@ body{
 
 .container::before {    
       content: "";
-      background-image: url('/bio-page/Images/thomas-bonometti-dtfyRuKG7UY-unsplash.jpeg');
+      background-image: url('/Images/thomas-bonometti-dtfyRuKG7UY-unsplash.jpeg');
       background-size: cover;
       position: absolute;
       top: 0px;
@@ -40,7 +32,7 @@ body{
 
 /* NavBar  */
 nav{
-    margin-top: 50px ;
+    margin-top: 10px ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,6 +77,22 @@ nav ul li a:hover{
 
 }
 
+footer{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: oldlace;
+}
 
+.contact{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
 
+.trademark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
