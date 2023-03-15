@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -18,7 +19,7 @@ section{
 
 img{
     box-sizing: border-box;
-    border: 4px ridge orange;
+    border: 4px ridge darkgreen;
     border-radius: 100px;
     margin: 10px 5px;
     padding: 2px 2px;
@@ -45,7 +46,7 @@ h3{
     align-items: center;
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
-    color: darkgoldenrod;
+    color: darkgreen;
 }
 ul{
     display: flex;
@@ -54,8 +55,8 @@ ul{
     padding: 20px;
 }
 li{
-    background-color: orange;
-    color: black;
+    background-color: black;
+    color: slategray;
     padding: 10px;
     margin: 1px;
 }
@@ -67,11 +68,11 @@ li{
    
 }
 p{
-    color: black;
-    background-color: orange;
+    color: slategray;
+    background-color: black;
     padding: 50px;
     box-sizing: border-box;
-    border: 1px solid silver;
+    border: 0px solid black;
     border-style: groove;
     border-radius: 100px;
     margin-left: 40px;
