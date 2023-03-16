@@ -1,12 +1,15 @@
 body{
     background-color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
 
+
+
 /* Bio Section */
-section{
-    margin-top: 75px;
+main{
+    margin-top: 2px;
    
 }
 
@@ -20,11 +23,18 @@ section{
 img{
     box-sizing: border-box;
     border: 4px ridge darkgreen;
-    border-radius: 100px;
+    border-radius: 115px;
     margin: 10px 5px;
     padding: 2px 2px;
-    width: 115px;
-    height: 125px;
+    width: 245px;
+    height: 250px;
+}
+img:hover{
+    padding: 20px;
+    transition: .3s all ease-in-out 0s;
+    border: 6px outset silver;
+    border-radius: 115px;
+    
 }
 
 
@@ -49,12 +59,14 @@ h3{
     color: darkgreen;
 }
 ul{
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     padding: 20px;
 }
 li{
+    display: flex;
+    justify-content: center;
     background-color: black;
     color: slategray;
     padding: 10px;
