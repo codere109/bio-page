@@ -78,12 +78,12 @@ nav ul li a:hover{
 }
 
 /* dropdown */
-#dropdown-content{
+/* #dropdown-content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     z-index: 1;
-}
+} */
 
 
 footer{
