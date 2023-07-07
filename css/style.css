@@ -29,6 +29,53 @@ body{
       opacity: 0.5;
 }
 /* end of background image */
+h2{
+    color: darkslategray;
+}
+ /* Custom styling for dropdown menus */
+
+ .dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 999;
+    
+  }
+  
+  .dropdown h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    
+  }
+
+ .dropdown select {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 20px;
+    border: 3px outset silver;
+    background-color: darkslategray;
+    color: rgb(249, 246, 246);
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: 1px 10px;
+    cursor: pointer;
+  }
+
+  .dropdown select option {
+    background-color: darkolivegreen;
+    color:darkslategray;
+    cursor: pointer;
+  }
+
+  
+
+  
+ 
 
 /* NavBar  */
 nav{
@@ -77,19 +124,10 @@ nav ul li a:hover{
 
 }
 
+
+
 /* dropdown */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: black;
-    padding: 2px 4px;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+
   
 
 footer{
